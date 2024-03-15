@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ h1, h2, h3, p {
+     margin: 0px;
+ }
+
+ p {
+   font-family: 'Truculenta';
+ }
+
+.nav-pills .nav-link {
+  align-content: center !important;
+  color: white !important;
+  padding-right: 2em;
+  font-family: 'Truculenta';
+  font-size: larger;
+ }
+
+ header {
+    background-image: url('../img/baner.png');
+    background-position: center center;
+    background-size: cover;
+ }
+
+ body {
+    background-color: #77D5D5;
+ }
+ 
+ .headline {
+   font-size: 120px;
+   font-family: 'Smooch', cursive;
+   text-align: center;
+   margin-bottom: 0.1em;
+}
+
+.intro-text {
+   font-size: 30px;
+   text-align: center;
+   font-family: 'Truculenta';
+   padding: 2em;
+}
+
+.subheadline {
+   font-size: 100px;
+   font-family: 'Smooch', cursive;
+   text-align: center;
+   margin-top: 0.5em;
+}
+
+.intro-cards {
+   font-size: 60px;
+   text-align: center;
+   font-family: 'Smooch', cursive;
+   padding: 0.1em;
+}
+
+.nosotrosh2 {
+   font-size: 60px;
+   text-align: center;
+   font-family: 'Smooch', cursive;
+   padding: 0.1em;
+}
+
+@media (max-width: 768px) {
+   .headline {
+       font-size: 16vw;
+   }
+
+   .intro-text {
+       font-size: 4vw;
+   }
+
+   .subheadline {
+       font-size: 11vw;
+   }
+   
+   .intro-cards {
+      font-size: 4vw;
+   }
+
+   .card-title {
+      font-size: 3vw;
+   }
+
+   .card-text {
+      font-size: 2vw;
+   }
+}
+
+.card img {
+   width: 200px;
+}
+
+.custom-card-group {
+   display: flex;
+   justify-content: center;
+}
+
+.card {
+background-color: transparent !important;
+font-family: 'Truculenta';
+margin: 0.2em;
+}
+
+@media (max-width: 768px) {
+   .custom-card-group {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .custom-card-group .card {
+       flex: 0 0 50%;
+       max-width: 40%;
+   }
+}
+
+
+
+/* Código para que no salgan las flechas en los input tipo number */
+   input[type=number]::-webkit-inner-spin-button, 
+   input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+   }
+   input[type=number] { -moz-appearance:textfield; }
+
+   input[type=date]::-webkit-inner-spin-button, 
+   input[type=date]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+   }
+   input[type=date] { -moz-appearance:textfield; }
+
+
+   
